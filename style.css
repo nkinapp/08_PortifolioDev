@@ -1,0 +1,233 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Asap", sans-serif;
+}
+
+body {
+  background-color: #16181D;
+}
+
+header {
+  background-image: url("/assests/Background_Intro.png");
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: 100%;
+ }
+
+.container {
+  max-width: 1040px ;
+  margin: auto;
+  text-align: center;
+}
+
+.container.header {
+  padding-top: 120px;
+  padding-bottom: 48px;
+}
+
+.container.header i {
+  font-size: 32px;
+  
+}
+
+#mywork {
+  padding-block: 72px 112px;
+}
+
+.title-lg{
+  font-size: 56px;
+  line-height: 1.2;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+.title-md {
+  font-size: 24px;
+  line-height: 1.2;
+  font-weight: 700;
+}
+
+.title-sm {
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: 700;
+}
+
+.text-md{
+  font-family: "Maven Pro", sans-serif;
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+.text-sm{
+  font-family: "Maven Pro", sans-serif;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.subtitle {
+  font-family: "Inconsolata", monospace;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #C0C4CE;
+}
+
+.color-principal-red {
+  color: #E3646E;
+}
+
+.color-principal-purple {
+  color: #BB72E9;
+}
+
+.color-principal-blue {
+  color: #3996DB;
+}
+
+.color-principal-green {
+  color: #82BC4F;
+}
+
+.color-principal-yellow {
+  color: #EABD5F;
+}
+
+.color-base-gray-100 {
+  color: #0D0E11;
+}
+
+.color-base-gray-200 {
+  color: #16181D;
+}
+
+.color-base-gray-300 {
+  color: #292C34;
+}
+
+.color-base-gray-400 {
+  color: #878EA1;
+}
+
+.color-base-gray-500 {
+  color: #C0C4CE;
+}
+
+.color-base-gray-600 {
+  color: #E2E4E9;
+}
+
+img + .subtitle {
+  margin-top: 56px;
+}
+
+ul {
+  display: flex;
+  justify-content:center;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+li {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 16px;
+  gap: 8px;
+  background: #292C34;
+  border-radius: 999px;
+  color: #C0C4CE ;
+  margin-inline: 8px;
+}
+
+.project{
+  background-color: #292C34;
+  padding: 16px;
+  border-radius: 16px;
+}
+
+.project > img {
+  width: 306px;
+  border-radius: 8px;
+  margin-bottom: 24px;
+}
+
+.project > p {
+  text-align: left;
+  color: #E2E4E9;
+}
+.project > p + p {
+ margin-top: 8px;
+}
+
+.my-project {
+  display: flex;
+  column-gap: 16px;
+  margin-top: 56px;
+  
+}
+
+#myservices {
+  background-color: #0D0E11 ;
+  padding-block: 88px 120px;
+}
+
+.service{
+  padding: 16px;
+  border-radius: 16px;
+  border: 1px solid #16181D;
+  width: 100%;
+}
+
+.service > img {
+  width: 48px;
+  margin-bottom: 24px;
+  margin-right: 100%;
+}
+
+.service > p {
+  text-align: left;
+  color: #E2E4E9;
+}
+
+.service > p + p {
+  margin-top: 8px;
+}
+
+footer {
+  background-image: url("/assests/Background_Contacts.png");
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: 100%;
+  padding-block: 120px 200px;
+ }
+
+ .social {
+  display: flex;
+  background-color: #292C34;
+  border-radius: 8px;
+  padding: 16px;
+  gap:16px;
+  align-items: center;
+  width: 400px;
+  margin-block: 8px;
+ }
+
+ .social > p {
+  font-size: 16px;
+  font-weight:400;
+  color: #C0C4CE;
+  font-family: "Maven Pro", sans-serif;
+  text-align: left;
+  width: 100%;
+ }
+
+ .my-social {
+  display: flex;
+  flex-direction: column;
+  margin-top: 48px;
+  align-items: center;
+}
